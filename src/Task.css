@@ -1,0 +1,43 @@
+/* src/Task.css */
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    max-width: 100%;
+  }
+  
+  .task:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-text {
+    font-size: 1rem;
+    color: #333;
+    word-break: break-word;
+    white-space: normal;
+    max-width: 80%;
+  }
+  
+  .task-delete {
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-delete:hover {
+    background-color: #e60000;
+  }
+  
